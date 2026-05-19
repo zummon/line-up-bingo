@@ -7,16 +7,19 @@
 	<title>Line up Bingo</title>
 </head>
 
-<body class="bg-neutral-900 text-white">
-	<div class="h-svh flex flex-col justify-center items-center text-center">
-		<div class="px-2 pb-4 text-neutral-400">
-			How to play <a class="underline" href="https://www.wikihow.com/Play-Connect-4"
+<body class="bg-stone-50 text-stone-700 font-sans selection:bg-orange-200 antialiased overflow-x-hidden">
+	<div class="min-h-screen flex flex-col items-center justify-between w-full">
+		<div class="px-4 pt-6 text-stone-500 font-medium text-center z-10">
+			How to play <a class="text-orange-500 hover:text-orange-600 underline decoration-orange-200 underline-offset-4 font-bold transition-colors" href="https://www.wikihow.com/Play-Connect-4"
 				target="_blank">https://www.wikihow.com/Play-Connect-4</a>
 		</div>
-		<div class="" id="app"></div>
-		<div class="px-2 pt-4 text-neutral-400">
-			Made by <a class="underline" target="_blank" href="https://github.com/zummon">Teerapat Anantarattanachai</a><br>
-			Something breaks, needs upgrade. Let me know
+		
+		<div class="w-full flex-grow flex flex-col" id="app"></div>
+		
+		<div class="px-4 pb-6 pt-4 text-stone-500 text-sm text-center z-10">
+			Made by Ai, <a class="text-orange-500 hover:text-orange-600 font-bold hover:underline transition-colors" target="_blank" href="https://github.com/zummon">Teerapat
+				Anantarattanachai</a><br>
+			<span class="text-stone-400">Something breaks, needs upgrade. Let me know</span>
 		</div>
 	</div>
 	<script type="module" src="/src/main.js"></script>
